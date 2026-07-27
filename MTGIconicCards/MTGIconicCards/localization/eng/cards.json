@@ -19,6 +19,6 @@
   "MTGICONICCARDS-TIME_WALK.title": "Time Walk",
   "MTGICONICCARDS-RAMPANT_GROWTH.description": "Gain {Energy:energyIcons()} at the start of each turn.",
   "MTGICONICCARDS-RAMPANT_GROWTH.title": "Rampant Growth",
-  "MTGICONICCARDS-FAITHLESS_LOOTING.description": "Draw {Cards:diff()} cards.",
+  "MTGICONICCARDS-FAITHLESS_LOOTING.description": "Draw {Cards:diff()} cards, then discard {Cards:diff()} cards.",
   "MTGICONICCARDS-FAITHLESS_LOOTING.title": "Faithless Looting"
 }

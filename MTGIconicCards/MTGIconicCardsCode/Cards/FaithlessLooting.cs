@@ -1,14 +1,16 @@
-﻿using MegaCrit.Sts2.Core.CardSelection;
+﻿using BaseLib.Utils;
+using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.CardPools;
 using MTGIconicCards.MTGIconicCardsCode.Cards;
 
 namespace MTGIconicCards.MTGIconicCardsCode.Cards;
 
-
+[Pool(typeof(ColorlessCardPool))]
 public class FaithlessLooting() : MTGIconicCardsCard(1,
     CardType.Skill, CardRarity.Common,
     TargetType.Self)

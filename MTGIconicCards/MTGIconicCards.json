@@ -3,7 +3,7 @@
   "name": "MTGIconicCards",
   "author": "Jikaran",
   "description": "Adds the PowerNine Cards from Magic the Gathering to the Game.",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "min_game_version": "0.109.0",
   "has_pck": true,
   "has_dll": true,
