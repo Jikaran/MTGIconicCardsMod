@@ -1,11 +1,14 @@
 {
   "MTGICONICCARDS-MOX_POWER.description": "Gain 1 Energy at the start of each turn.",
-  "MTGICONICCARDS-MOX_POWER.smartDescription": "Gain {Energy:energyIcons()} at the start of each turn.",
+  "MTGICONICCARDS-MOX_POWER.smartDescription": "Gain {Amount:energyIcons()} at the start of each turn.",
   "MTGICONICCARDS-MOX_POWER.title": "Mox",
   "MTGICONICCARDS-TIME_WALK_POWER.description": "Take an extra turn after the current turn.",
   "MTGICONICCARDS-TIME_WALK_POWER.smartDescription": "Take an extra turn after the current turn.",
   "MTGICONICCARDS-TIME_WALK_POWER.title": "Time Walk",
   "MTGICONICCARDS-RAMPANT_GROWTH_POWER.description": "Gain 1 Energy at the start of each turn.",
-  "MTGICONICCARDS-RAMPANT_GROWTH_POWER.smartDescription": "Gain {Energy:energyIcons()} at the start of each turn.",
-  "MTGICONICCARDS-RAMPANT_GROWTH_POWER.title": "Rampant Growth"
+  "MTGICONICCARDS-RAMPANT_GROWTH_POWER.smartDescription": "Gain {Amount:energyIcons()} at the start of each turn.",
+  "MTGICONICCARDS-RAMPANT_GROWTH_POWER.title": "Rampant Growth",
+  "MTGICONICCARDS-SHEOLDRED_POWER.description": "Whenever a Player draws a card, deal [blue]1[/blue] damage to ALL enemies and heal [green]1[/green].",
+  "MTGICONICCARDS-SHEOLDRED_POWER.smartDescription": "Whenever a Player draws a card, deal [blue]{Amount}[/blue] damage to ALL enemies and heal [green]{Amount}[/green].",
+  "MTGICONICCARDS-SHEOLDRED_POWER.title": "SheoldredPower"
 }

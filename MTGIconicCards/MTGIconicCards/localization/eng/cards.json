@@ -23,7 +23,9 @@
   "MTGICONICCARDS-FAITHLESS_LOOTING.title": "Faithless Looting",
   "MTGICONICCARDS-LIGHTNING_BOLT.description": "Deal {Damage:diff()} Damage.",
   "MTGICONICCARDS-LIGHTNING_BOLT.title": "Lightning Bolt",
-  "MTGICONICCARDS-BRAINSTORM.description": "Draw 3 cards. Then put Some back.",
-  "MTGICONICCARDS-BRAINSTORM.selectionScreenPrompt": "Choose Cards to put on top of your Draw Pile.",
-  "MTGICONICCARDS-BRAINSTORM.title": "Brainstorm"
+  "MTGICONICCARDS-BRAINSTORM.description": "Draw 3 cards. Return 2 Cards to the top of your Deck.",
+  "MTGICONICCARDS-BRAINSTORM.selectionScreenPrompt": "Choose 2 Cards to put on top of your Draw Pile.",
+  "MTGICONICCARDS-BRAINSTORM.title": "Brainstorm",
+  "MTGICONICCARDS-SHEOLDRED.description": "When a Player draws a card deal {SheoldredPower:diff()} Damage to all Enemies and heal {SheoldredPower:diff()} health.",
+  "MTGICONICCARDS-SHEOLDRED.title": "Sheoldred"
 }
