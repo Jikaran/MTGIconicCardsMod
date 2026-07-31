@@ -1,7 +1,12 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Extensions;
+using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.Commands;
 using MTGIconicCards.MTGIconicCardsCode.Extensions;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.Models;
+using MTGIconicCards.MTGIconicCardsCode.CardPool;
 
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
@@ -12,7 +17,7 @@ namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 /// You can also just create the class manually; just make sure to inherit from this class.
 /// </summary>
 public abstract class PowerNine(int cost, CardType type, CardRarity rarity, TargetType target) :
-    CustomCardModel(cost, type, rarity, target)
+    MTGIconicCardsCard(cost, type, rarity, target)
 {
     //Image size:
     //Normal art: 1000x760 (Using 500x380 should also work, it will simply be scaled.)
@@ -26,4 +31,7 @@ public abstract class PowerNine(int cost, CardType type, CardRarity rarity, Targ
     //Uses card_portraits/card_name.png as image path. These should be smaller images.
     public override string PortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
     public override string BetaPortraitPath => $"beta/{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
+    
+    
 }
+    

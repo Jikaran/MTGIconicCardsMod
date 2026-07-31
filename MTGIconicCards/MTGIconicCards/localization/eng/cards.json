@@ -20,5 +20,10 @@
   "MTGICONICCARDS-RAMPANT_GROWTH.description": "Gain {Energy:energyIcons()} at the start of each turn.",
   "MTGICONICCARDS-RAMPANT_GROWTH.title": "Rampant Growth",
   "MTGICONICCARDS-FAITHLESS_LOOTING.description": "Draw {Cards:diff()} cards, then discard {Cards:diff()} cards.",
-  "MTGICONICCARDS-FAITHLESS_LOOTING.title": "Faithless Looting"
+  "MTGICONICCARDS-FAITHLESS_LOOTING.title": "Faithless Looting",
+  "MTGICONICCARDS-LIGHTNING_BOLT.description": "Deal {Damage:diff()} Damage.",
+  "MTGICONICCARDS-LIGHTNING_BOLT.title": "Lightning Bolt",
+  "MTGICONICCARDS-BRAINSTORM.description": "Draw 3 cards. Then put Some back.",
+  "MTGICONICCARDS-BRAINSTORM.selectionScreenPrompt": "Choose Cards to put on top of your Draw Pile.",
+  "MTGICONICCARDS-BRAINSTORM.title": "Brainstorm"
 }

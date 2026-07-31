@@ -27,7 +27,7 @@ public class FaithlessLooting() : MTGIconicCardsCard(1,
         FaithlessLooting faithlessLooting = this;
         int cardCount = faithlessLooting.DynamicVars.Cards.IntValue;
         await CardPileCmd.DrawWithoutBlockingOnOtherPlayers(choiceContext, faithlessLooting.DynamicVars.Cards.BaseValue,
-            faithlessLooting.Owner); 
+            faithlessLooting.Owner, this); 
         await CardCmd.Discard(choiceContext, await CardSelectCmd.FromHandForDiscard(choiceContext, faithlessLooting.Owner, new CardSelectorPrefs(CardSelectorPrefs.DiscardSelectionPrompt, cardCount), (Func<CardModel, bool>) null, (AbstractModel) faithlessLooting));
 
     }

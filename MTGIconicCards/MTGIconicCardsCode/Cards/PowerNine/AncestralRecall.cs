@@ -10,7 +10,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class AncestralRecall() : MTGIconicCardsCard(1,
+public class AncestralRecall() : PowerNine(1,
     CardType.Skill, CardRarity.Rare,
     TargetType.AnyPlayer)
 {
@@ -28,13 +28,13 @@ public class AncestralRecall() : MTGIconicCardsCard(1,
         if (play.Target == null)
         {
             await CardPileCmd.DrawWithoutBlockingOnOtherPlayers(choiceContext, ancestralRecall.DynamicVars.Cards.BaseValue,
-                ancestralRecall.Owner);
+                ancestralRecall.Owner, this);
         }
         else
         {
             await CardPileCmd.DrawWithoutBlockingOnOtherPlayers(choiceContext,
                 ancestralRecall.DynamicVars.Cards.BaseValue,
-                play.Target.Player);
+                play.Target.Player, this);
         }
     }
 

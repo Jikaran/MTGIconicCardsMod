@@ -12,7 +12,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class MoxEmerald() : MTGIconicCardsCard(0,
+public class MoxEmerald() : PowerNine(0,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {

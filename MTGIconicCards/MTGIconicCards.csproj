@@ -62,6 +62,7 @@
 
     <ItemGroup>
         <Folder Include="MTGIconicCards\images\relics\big\"/>
+        <Folder Include="MTGIconicCards\images\ui\" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

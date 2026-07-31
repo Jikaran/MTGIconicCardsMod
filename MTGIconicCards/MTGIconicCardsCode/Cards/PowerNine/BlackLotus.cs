@@ -10,7 +10,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class BlackLotus() : MTGIconicCardsCard(0,
+public class BlackLotus() : PowerNine(0,
     CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {

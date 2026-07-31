@@ -1,5 +1,6 @@
 ﻿using Godot;
 using BaseLib.Abstracts;
+using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
 using MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
@@ -23,7 +24,7 @@ public class PowerNineCardPool : CustomCardPoolModel
   public override Color DeckEntryCardColor => new Color("A3A3A3FF");
 
   public override bool IsColorless => true;
-
+  
   protected override CardModel[] GenerateAllCards()
   {
     return new CardModel[9]

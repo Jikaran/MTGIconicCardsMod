@@ -12,7 +12,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class MoxJet() : MTGIconicCardsCard(0,
+public class MoxJet() : PowerNine(0,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {

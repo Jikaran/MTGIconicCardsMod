@@ -12,7 +12,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class TimeWalk() : MTGIconicCardsCard(2,
+public class TimeWalk() : PowerNine(2,
     CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {

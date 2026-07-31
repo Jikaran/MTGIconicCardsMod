@@ -12,7 +12,7 @@ using MTGIconicCards.MTGIconicCardsCode.Cards;
 namespace MTGIconicCards.MTGIconicCardsCode.Cards.PowerNine;
 
 [Pool(typeof(PowerNineCardPool))]
-public class TimeTwister() : MTGIconicCardsCard(3,
+public class TimeTwister() : PowerNine(3,
     CardType.Skill, CardRarity.Rare,
     TargetType.Self)
 {
@@ -42,7 +42,7 @@ public class TimeTwister() : MTGIconicCardsCard(3,
             }
             await CardPileCmd.Shuffle(choiceContext, creature.Player);
             await CardPileCmd.DrawWithoutBlockingOnOtherPlayers(choiceContext, timeTwister.DynamicVars.Cards.BaseValue,
-                creature.Player);
+                creature.Player, this);
         }
     }
 
